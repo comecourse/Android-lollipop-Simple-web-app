@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.nav.MainActivity" 
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+ 
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+     <item
+        android:id="@+id/navigate"
+        android:orderInCategory="200"
+        android:title="next"
+        android:icon="@drawable/ic_next"
+        app:showAsAction="always"
+        ></item>
+
+</menu>
